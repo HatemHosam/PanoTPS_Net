@@ -26,11 +26,11 @@ Scipy == '1.9.1'
 
 
 The implementation of the Thin-plate spline (TPS) transformer implementation is based on the following Github-Repo:
-\url{https://github.com/dantkz/spatial-transformer-tensorflow}
+https://github.com/dantkz/spatial-transformer-tensorflow
 
 For the cuboid room layout estimation, there are two training configurations. First, training on the PanoContext training set and whole Stanford-2D3D and testing on the PanoContext test set. Second, training on Stanford-2D3D training set and whole PanoContext and testing on Stanford-2D3D test set.
 The panoContext and Stanford2D3D dataset split and the post-processing utilized are the same as Layout-Netv2  adopted from their official Github repo:
-\url{https://github.com/zouchuhang/LayoutNetv2}
+https://github.com/zouchuhang/LayoutNetv2
 
 To train PanoTPS-Net, the dataset should be downloaded from the above link. and the path for images, edges, and corners should be provided in the train.py.
 To get the best model fitting in training, it is recommended to train the model for 250 epochs with a learning rate of 0.001, and weight decay of 0.0001. For the second 250 epochs, it is better to change the learning rate to 0.0001 and weight decay of 0.00001.
