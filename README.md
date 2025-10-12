@@ -17,7 +17,7 @@ https://github.com/dantkz/spatial-transformer-tensorflow
 
 There are two training configurations. First, training on the PanoContext training set and whole Stanford-2D3D and testing on the PanoContext test set. Second, training on Stanford-2D3D training set and whole PanoContext and testing on Stanford-2D3D test set.
 
-The panoContext and Stanford2D3D dataset split and the post-processing utilized are the same as Layout-Netv2  adopted from their official Github repo:
+The panoContext and Stanford2D3D dataset split and the post-processing utilized are the same as Layout-Netv2  adapted from their official Github repo:
 https://github.com/zouchuhang/LayoutNetv2
 
 To train PanoTPS-Net, the dataset should be downloaded from the above link. and the path for images, edges, and corners should be provided in the train.py
