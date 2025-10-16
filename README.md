@@ -12,9 +12,6 @@ Tensorflow_addons == '0.19.0'
 OpenCV == '4.8.0'
 NumPy == '1.23.5'
 
-The implementation of the Thin-plate spline (TPS) transformer implementation is based on the following Github-Repo:
-https://github.com/dantkz/spatial-transformer-tensorflow
-
 The model was implemented using TensorFlow.
 The version of libraries:
 
