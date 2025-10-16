@@ -5,13 +5,6 @@ This is the implementation of PanoTPS-Net: Estimating Room Layout From Single Pa
 
 The model was implemented using TensorFlow.
 
-The version of libraries:
-
-Tensorflow-gpu == '2.10.1'
-Tensorflow_addons == '0.19.0'
-OpenCV == '4.8.0'
-NumPy == '1.23.5'
-
 The model was implemented using TensorFlow.
 The version of libraries:
 
