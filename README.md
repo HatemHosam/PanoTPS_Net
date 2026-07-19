@@ -1,6 +1,10 @@
 # PanoTPS-Net
 PanoTPS-Net: Panoramic Room Layout Estimation via Thin Plate Spline Transformation
 
+![fig1](assets/fig1.jpg)
+
+![fig2](assets/fig2.jpg)
+
 This is the official implementation of PanoTPS-Net: Estimating Room Layout From Single Panorama Images Using Thin Plate Spline Transformation Network. [Paper](https://www.sciencedirect.com/science/article/pii/S0031320325012804)
 
 The model was implemented using TensorFlow.
